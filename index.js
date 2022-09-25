@@ -10,7 +10,7 @@
   }
   console.log(resolveData({ name: 'heima', age: 20 }))
 
-  // method有数据的话就用 用户传的数据，没有的话默认为get
+  // method有数据的话就用 用户传的数据，没有的默认为get
   const myAjax = (method = 'get', url, data, success) => {
     // 实例化 xhr对象
     let xhr = new XMLHttpRequest()
